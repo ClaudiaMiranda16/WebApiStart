@@ -9,7 +9,7 @@ using WebAPIBase.Models;
 namespace WebAPIBase.Controllers
 {
     [ApiController]
-    //[Route("api/[controller]")]
+    [Route("api/[controller]")]
     public class CustomerController: ControllerBase
     {
 
@@ -22,7 +22,8 @@ namespace WebAPIBase.Controllers
                 new Customer {Id = 3, Firstname="teve",LastName="Bishp", Email="steve.bihop@galvanize.com"}
             };
         }
-        [HttpGet("api/Customer/{id}")]
+        [HttpGet()]
+        [Route("{id}")]
         public Customer GetOne(int id){
             foreach (Customer customer in this.customers)
             {
@@ -35,13 +36,13 @@ namespace WebAPIBase.Controllers
 
         }
 
-        [HttpGet ("api/Customer")]
+        [HttpGet ()]
         public List<Customer> GetAll(){
             return this.customers;
 
         }
 
-        [HttpPost ("api/Customer")]
+        [HttpPost ()]
         public Customer Create([FromBody] Customer newCustomer){
             newCustomer.Id = customers.Count +1;
             this.customers.Add(newCustomer);
@@ -55,8 +56,12 @@ namespace WebAPIBase.Controllers
             return null;
         }
 
-        [HttpPut ("api/Customer/{id}")]
-        public string Update([FromRoute] long id, [FromBody] Customer updatedCustomer){
+        [HttpPut ()]
+        [Route("{id}")]
+        [Consumes("application/json")]
+        [Produces("appliation/xml", "application/json")]
+        public Customer Update([FromRoute] long id, [FromBody] Customer updatedCustomer) {
+           
             foreach (Customer customer in customers)
             {
                 if (customer.Id==1)
@@ -66,11 +71,13 @@ namespace WebAPIBase.Controllers
                     customer.Email=updatedCustomer.Email;
                 }
             }
-            return "Updated";
+            return updatedCustomer;
         }
 
-        [HttpDelete ("api/Customer/{id}")]
-
+        [HttpDelete ()]
+        [Route("{id}")]
+        [Consumes("application/json")]
+        [Produces("appliation/xml", "application/json")]
         public string Delete([FromRoute] long id){
             foreach (Customer customer in customers)
             {

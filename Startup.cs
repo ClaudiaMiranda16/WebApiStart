@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
 namespace WebAPIBase
@@ -25,6 +26,9 @@ namespace WebAPIBase
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMemoryCache();
+            services.AddSession();
+            services.AddMvc(options => options.EnableEndpointRouting = false).AddXmlSerializerFormatters();;
             services.AddControllers();
         }
 
@@ -44,21 +48,39 @@ namespace WebAPIBase
                 }
             );
             */
+          /*   app.Use(async (context, next) => {
+                var method = context.Request.Method;
+                await context.Response.WriteAsync(method);
+                await next.in
+            });*/
+
+          app.Map("/hello", appbuilder => {
+                appbuilder.MapWhen(
+                    context => context.Request.Query.ContainsKey("name"),
+                    (appB) => {
+                        appB.Run(async newContext => {
+                            await newContext.Response.WriteAsync($"Hello { newContext.Request.Query["name"] }!!");
+                        });
+                    }
+                );
+            });
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
             app.UseHttpsRedirection();
-
+            app.UseStaticFiles();
             app.UseRouting();
-
             app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
+            app.UseSession();
+            app.UseMvc();
+           /*  app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
+            });*/
         }
     }
 }
