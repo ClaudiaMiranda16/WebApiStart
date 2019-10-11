@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LGARCIARSN\\Desktop\\CLOUD\\new project\\WebAPIBase\\WebAPIBase.csproj": {}
+    "C:\\Users\\cmirandac\\Documents\\WEBAPIStart\\WebApiStart\\WebAPIBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LGARCIARSN\\Desktop\\CLOUD\\new project\\WebAPIBase\\WebAPIBase.csproj": {
+    "C:\\Users\\cmirandac\\Documents\\WEBAPIStart\\WebApiStart\\WebAPIBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LGARCIARSN\\Desktop\\CLOUD\\new project\\WebAPIBase\\WebAPIBase.csproj",
+        "projectUniqueName": "C:\\Users\\cmirandac\\Documents\\WEBAPIStart\\WebApiStart\\WebAPIBase.csproj",
         "projectName": "WebAPIBase",
-        "projectPath": "C:\\Users\\LGARCIARSN\\Desktop\\CLOUD\\new project\\WebAPIBase\\WebAPIBase.csproj",
-        "packagesPath": "C:\\Users\\LGARCIARSN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LGARCIARSN\\Desktop\\CLOUD\\new project\\WebAPIBase\\obj\\",
+        "projectPath": "C:\\Users\\cmirandac\\Documents\\WEBAPIStart\\WebApiStart\\WebAPIBase.csproj",
+        "packagesPath": "C:\\Users\\cmirandac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cmirandac\\Documents\\WEBAPIStart\\WebApiStart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\LGARCIARSN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\cmirandac\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

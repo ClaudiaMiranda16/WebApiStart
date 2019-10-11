@@ -40,3 +40,24 @@ C:\Users\LGARCIARSN\Desktop\CLOUD\new project\WebAPIBase\obj\Debug\netcoreapp3.0
 C:\Users\LGARCIARSN\Desktop\CLOUD\new project\WebAPIBase\obj\Debug\netcoreapp3.0\WebAPIBase.RazorTargetAssemblyInfo.cache
 C:\Users\LGARCIARSN\Desktop\CLOUD\new project\WebAPIBase\obj\Debug\netcoreapp3.0\WebAPIBase.dll
 C:\Users\LGARCIARSN\Desktop\CLOUD\new project\WebAPIBase\obj\Debug\netcoreapp3.0\WebAPIBase.pdb
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\appsettings.Production.json
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\appsettings.Staging.json
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\config.json
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\WebAPIBase.exe
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\WebAPIBase.deps.json
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\WebAPIBase.runtimeconfig.json
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\WebAPIBase.runtimeconfig.dev.json
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\WebAPIBase.dll
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\bin\Debug\netcoreapp3.0\WebAPIBase.pdb
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\obj\Debug\netcoreapp3.0\WebAPIBase.csprojAssemblyReference.cache
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\obj\Debug\netcoreapp3.0\staticwebassets\WebAPIBase.StaticWebAssets.Manifest.cache
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\obj\Debug\netcoreapp3.0\staticwebassets\WebAPIBase.StaticWebAssets.xml
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\obj\Debug\netcoreapp3.0\WebAPIBase.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\obj\Debug\netcoreapp3.0\WebAPIBase.AssemblyInfoInputs.cache
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\obj\Debug\netcoreapp3.0\WebAPIBase.AssemblyInfo.cs
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\obj\Debug\netcoreapp3.0\WebAPIBase.RazorTargetAssemblyInfo.cache
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\obj\Debug\netcoreapp3.0\WebAPIBase.dll
+C:\Users\cmirandac\Documents\WEBAPIStart\WebApiStart\obj\Debug\netcoreapp3.0\WebAPIBase.pdb

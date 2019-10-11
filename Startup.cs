@@ -31,6 +31,19 @@ namespace WebAPIBase
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+       /*    app.Map("/level1", level1App => {
+                level1App.Map("/level2a", level2App => {
+                    level2App.Run(context => context.Response.WriteAsync("Level1/Level2A"));
+
+                });
+
+                level1App.Map("/level2b", level2BApp => {
+                    level2BApp.Run(context => context.Response.WriteAsync("Level1/Level2A"));
+
+                });
+                }
+            );
+            */
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
